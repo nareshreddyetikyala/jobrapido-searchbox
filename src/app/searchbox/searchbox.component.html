@@ -1,0 +1,19 @@
+<section class="searchbox" aria-label="Searchbox">
+  <div class="searchbox--section">
+    <h2>Input search section</h2>
+    <input [(ngModel)]="searchText" placeholder="Search..." />
+    <button (click)="onSearch()" [disabled]="isSearching">Search</button>
+   <!--  ngif enable when searching the elements -->
+    <div *ngIf="isSearching">Searching...</div>
+    <!-- here append the search result -->
+    <ul *ngIf="results.length">
+      <li *ngFor="let result of results">
+        <strong>{{ result.name }}</strong> 
+        <p>{{ result.email }}</p> 
+        <p>{{ result.body }}</p>
+      </li>
+    </ul>
+  </div>
+</section>
+
+  
