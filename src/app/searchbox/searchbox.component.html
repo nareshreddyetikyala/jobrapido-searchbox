@@ -8,9 +8,9 @@
     <!-- here append the search result -->
     <ul *ngIf="results.length">
       <li *ngFor="let result of results">
-        <strong>{{ result.name }}</strong> 
-        <p>{{ result.email }}</p> 
-        <p>{{ result.body }}</p>
+        <p><strong>Name : </strong> {{ result.name }} </p> 
+        <p><strong>Email: </strong> {{ result.email }}</p> 
+        <p><strong>Description: </strong> {{ result.body }}</p>
       </li>
     </ul>
   </div>
