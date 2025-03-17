@@ -1,7 +1,7 @@
 #### BRANCH: 
-main Branch -- main branch align with production
+main  -- main branch align with production
 
-develop Branch -- continue development and merging developing branches
+develop  -- continue development and merging developing branches
 
 bug** -- bug with id branches
 
