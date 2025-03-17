@@ -1,8 +1,12 @@
 #### BRANCH: 
 main Branch -- main branch align with production
+
 develop Branch -- continue development and merging developing branches
+
 bug** -- bug with id branches
+
 feature** -- feature with id branches
+
 hotfix** -- hotfix braches in production
 
 # SearchApp
